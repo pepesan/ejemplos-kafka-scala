@@ -12,7 +12,7 @@ object Producer {
     // definimos los servidores donde conectar
     // properties.put("bootstrap.servers", "localhost:9092")
     // manejado con la clase ProducerConfig
-    properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092")
+    properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:29092")
     // definimos el serializador de claves
     properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer")
     // definimos el serializador de valores

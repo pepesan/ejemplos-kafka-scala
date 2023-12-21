@@ -10,7 +10,7 @@ object Consumer {
     println("Iniciando Consumidor")
     val properties = new Properties()
     // definimos los servidores donde conectar
-    properties.put("bootstrap.servers", "localhost:9092")
+    properties.put("bootstrap.servers", "localhost:29092")
     // definimos el deserializador de claves
     properties.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
     // definimos el deserializador de valores
