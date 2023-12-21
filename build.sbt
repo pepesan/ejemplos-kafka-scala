@@ -12,5 +12,6 @@ lazy val root = (project in file("."))
 libraryDependencies += "org.apache.kafka" % "kafka-clients" % "3.6.1"
 // https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams-scala
 libraryDependencies += "org.apache.kafka" %% "kafka-streams-scala" % "3.6.1"
-
+// https://mvnrepository.com/artifact/org.slf4j/slf4j-reload4j
+libraryDependencies += "org.slf4j" % "slf4j-reload4j" % "2.0.9"
 
